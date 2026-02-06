@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-06T02:17:32 CET" name="Command line suite" finished-at="2026-02-06T02:18:13 CET" duration-ms="40662">
+    <groups>
+    </groups>
+    <test started-at="2026-02-06T02:17:32 CET" name="Command line test" finished-at="2026-02-06T02:18:13 CET" duration-ms="40662">
+      <class name="com.monefy.tests.ExpenseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.monefy.tests.ExpenseTest@d83da2e]" started-at="2026-02-06T02:17:33 CET" name="setUp" finished-at="2026-02-06T02:18:01 CET" duration-ms="28581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddExpense()[pri:0, instance:com.monefy.tests.ExpenseTest@d83da2e]" started-at="2026-02-06T02:18:01 CET" name="testAddExpense" description="Verify that a user can successfully add an expense for Food" finished-at="2026-02-06T02:18:12 CET" duration-ms="10781" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: AppiumBy.id: com.monefy.app.lite:id/minus_button (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:adbHost: 172.20.0.147, appium:adbPort: 17107, appium:appActivity: com.monefy.activities.main...., appium:appPackage: com.monefy.app.lite, appium:appiumData: {appiumVersion: stable, automationName: UiAutomator2}, appium:automationName: UiAutomator2, appium:chromedriverChromeMappingFile: /root/.testobject_devices/w..., appium:chromedriverExecutableDir: /root/.testobject_devices/w..., appium:chromedriverPorts: [[3250, 3260]], appium:databaseEnabled: false, appium:desired: {adbHost: 172.20.0.147, adbPort: 17107, appActivity: com.monefy.activities.main...., appPackage: com.monefy.app.lite, automationName: UiAutomator2, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3250, 3260]], deviceName: Samsung_Galaxy_S23_FE_free, flutterSystemPort: 22607, noReset: false, platformName: Android, remoteAdbHost: 172.20.0.147, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22307}, sauce:options: {appiumVersion: stable, build: Monefy-Build-1, name: Android Monefy Test, username: oauth-sadginayak.15-1b0c5}, suppressKillServer: true, systemPort: 21107, uiautomator2ServerInstallTimeout: 60000}, appium:deviceApiLevel: 36, appium:deviceContextId: b067e770-cd69-4bf5-a013-791..., appium:deviceManufacturer: samsung, appium:deviceModel: SM-S711B, appium:deviceName: RZCX80A0ELV, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: RZCX80A0ELV, appium:flutterSystemPort: 22607, appium:javascriptEnabled: true, appium:jobUuid: cfe6e91f76b240f38c878196af8..., appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: false, appium:pixelRatio: 2.8125, appium:platformVersion: 16, appium:remoteAdbHost: 172.20.0.147, appium:remoteAppsCacheLimit: 0, appium:statBarHeight: 80, appium:suppressKillServer: true, appium:systemPort: 21107, appium:takesScreenshot: true, appium:testobject_device: Samsung_Galaxy_S23_FE_free, appium:testobject_device_name: Samsung Galaxy S23 FE, appium:testobject_device_session_id: d216723c-ff2f-46e2-b903-f08..., appium:testobject_test_report_api_url: https://api.eu-central-1.sa..., appium:testobject_test_report_url: https://app.eu-central-1.sa..., appium:testobject_user_id: oauth-sadginayak.15-1b0c5, appium:uiautomator2ServerInstallTimeout: 60000, appium:usedCachedDevice: false, appium:viewportRect: {height: 2260, left: 0, top: 80, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID, sauce:chromeOptions: {androidDevToolsPort: 22307}, sauce:options: {appiumVersion: stable, build: Monefy-Build-1, name: Android Monefy Test, username: oauth-sadginayak.15-1b0c5}}
+Session ID: 315f726a-1d50-4759-99eb-b27ba1a59b1b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: AppiumBy.id: com.monefy.app.lite:id/minus_button (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:adbHost: 172.20.0.147, appium:adbPort: 17107, appium:appActivity: com.monefy.activities.main...., appium:appPackage: com.monefy.app.lite, appium:appiumData: {appiumVersion: stable, automationName: UiAutomator2}, appium:automationName: UiAutomator2, appium:chromedriverChromeMappingFile: /root/.testobject_devices/w..., appium:chromedriverExecutableDir: /root/.testobject_devices/w..., appium:chromedriverPorts: [[3250, 3260]], appium:databaseEnabled: false, appium:desired: {adbHost: 172.20.0.147, adbPort: 17107, appActivity: com.monefy.activities.main...., appPackage: com.monefy.app.lite, automationName: UiAutomator2, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3250, 3260]], deviceName: Samsung_Galaxy_S23_FE_free, flutterSystemPort: 22607, noReset: false, platformName: Android, remoteAdbHost: 172.20.0.147, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22307}, sauce:options: {appiumVersion: stable, build: Monefy-Build-1, name: Android Monefy Test, username: oauth-sadginayak.15-1b0c5}, suppressKillServer: true, systemPort: 21107, uiautomator2ServerInstallTimeout: 60000}, appium:deviceApiLevel: 36, appium:deviceContextId: b067e770-cd69-4bf5-a013-791..., appium:deviceManufacturer: samsung, appium:deviceModel: SM-S711B, appium:deviceName: RZCX80A0ELV, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: RZCX80A0ELV, appium:flutterSystemPort: 22607, appium:javascriptEnabled: true, appium:jobUuid: cfe6e91f76b240f38c878196af8..., appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: false, appium:pixelRatio: 2.8125, appium:platformVersion: 16, appium:remoteAdbHost: 172.20.0.147, appium:remoteAppsCacheLimit: 0, appium:statBarHeight: 80, appium:suppressKillServer: true, appium:systemPort: 21107, appium:takesScreenshot: true, appium:testobject_device: Samsung_Galaxy_S23_FE_free, appium:testobject_device_name: Samsung Galaxy S23 FE, appium:testobject_device_session_id: d216723c-ff2f-46e2-b903-f08..., appium:testobject_test_report_api_url: https://api.eu-central-1.sa..., appium:testobject_test_report_url: https://app.eu-central-1.sa..., appium:testobject_user_id: oauth-sadginayak.15-1b0c5, appium:uiautomator2ServerInstallTimeout: 60000, appium:usedCachedDevice: false, appium:viewportRect: {height: 2260, left: 0, top: 80, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID, sauce:chromeOptions: {androidDevToolsPort: 22307}, sauce:options: {appiumVersion: stable, build: Monefy-Build-1, name: Android Monefy Test, username: oauth-sadginayak.15-1b0c5}}
+Session ID: 315f726a-1d50-4759-99eb-b27ba1a59b1b
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at com.monefy.pages.HomePage.clickAddExpense(HomePage.java:25)
+at com.monefy.tests.ExpenseTest.testAddExpense(ExpenseTest.java:16)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddExpense -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.monefy.tests.ExpenseTest@d83da2e]" started-at="2026-02-06T02:18:12 CET" name="tearDown" finished-at="2026-02-06T02:18:13 CET" duration-ms="1273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddExpense status=FAILURE method=ExpenseTest.testAddExpense()[pri:0, instance:com.monefy.tests.ExpenseTest@d83da2e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.monefy.tests.ExpenseTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

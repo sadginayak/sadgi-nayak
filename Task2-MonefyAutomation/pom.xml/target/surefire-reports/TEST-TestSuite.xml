@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="TestSuite" time="10.787" errors="0" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Lenovo\eclipse-workspace\monefy-automation\pom.xml"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Lenovo\eclipse-workspace\monefy-automation\pom.xml"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\Lenovo\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf12329570347572256219.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python312\Scripts\;C:\Python312\;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\SIMULIA\Commands;C:\Program Files\Microsoft MPI\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\MATLAB\R2021a\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-19\bin;C:\AutomationTools\apache-maven-3.8.7-bin\apache-maven-3.8.7\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;%ANDROID_HOME%;C:\Users\Lenovo\.poetry\bin;C:\Users\Lenovo\AppData\Local\Muse Hub\lib;C:\Program Files\nodejs\;C:\Users\Lenovo\anaconda3;C:\Users\Lenovo\anaconda3\Library\mingw-w64\bin;C:\Users\Lenovo\anaconda3\Library\usr\bin;C:\Users\Lenovo\anaconda3\Library\bin;C:\Users\Lenovo\anaconda3\Scripts;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2025.1.1.1\bin;;C:\Users\Lenovo\AppData\Local\Android\Sdk;C:\Users\Lenovo\AppData\Roaming\Python\Scripts\poetry;C:\Users\Lenovo\.poetry\bin;C:\Users\Lenovo\AppData\Local\Muse Hub\lib;C:\Program Files\JetBrains\PyCharm Community Edition 2025.1.1.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.3\bin;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="63.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Lenovo"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="19"/>
+    <property name="user.name" value="Lenovo"/>
+    <property name="java.class.path" value="C:\Users\Lenovo\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Lenovo\eclipse-workspace\monefy-automation\pom.xml\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="m2e.build.project.data.socket.port" value="50710"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.monefy.tests.ExpenseTest" name="testAddExpense" time="10.787">
+    <failure message="Expected condition failed: waiting for element to be clickable: AppiumBy.id: com.monefy.app.lite:id/minus_button (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:adbHost: 172.20.0.147, appium:adbPort: 17107, appium:appActivity: com.monefy.activities.main...., appium:appPackage: com.monefy.app.lite, appium:appiumData: {appiumVersion: stable, automationName: UiAutomator2}, appium:automationName: UiAutomator2, appium:chromedriverChromeMappingFile: /root/.testobject_devices/w..., appium:chromedriverExecutableDir: /root/.testobject_devices/w..., appium:chromedriverPorts: [[3250, 3260]], appium:databaseEnabled: false, appium:desired: {adbHost: 172.20.0.147, adbPort: 17107, appActivity: com.monefy.activities.main...., appPackage: com.monefy.app.lite, automationName: UiAutomator2, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3250, 3260]], deviceName: Samsung_Galaxy_S23_FE_free, flutterSystemPort: 22607, noReset: false, platformName: Android, remoteAdbHost: 172.20.0.147, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22307}, sauce:options: {appiumVersion: stable, build: Monefy-Build-1, name: Android Monefy Test, username: oauth-sadginayak.15-1b0c5}, suppressKillServer: true, systemPort: 21107, uiautomator2ServerInstallTimeout: 60000}, appium:deviceApiLevel: 36, appium:deviceContextId: b067e770-cd69-4bf5-a013-791..., appium:deviceManufacturer: samsung, appium:deviceModel: SM-S711B, appium:deviceName: RZCX80A0ELV, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: RZCX80A0ELV, appium:flutterSystemPort: 22607, appium:javascriptEnabled: true, appium:jobUuid: cfe6e91f76b240f38c878196af8..., appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: false, appium:pixelRatio: 2.8125, appium:platformVersion: 16, appium:remoteAdbHost: 172.20.0.147, appium:remoteAppsCacheLimit: 0, appium:statBarHeight: 80, appium:suppressKillServer: true, appium:systemPort: 21107, appium:takesScreenshot: true, appium:testobject_device: Samsung_Galaxy_S23_FE_free, appium:testobject_device_name: Samsung Galaxy S23 FE, appium:testobject_device_session_id: d216723c-ff2f-46e2-b903-f08..., appium:testobject_test_report_api_url: https://api.eu-central-1.sa..., appium:testobject_test_report_url: https://app.eu-central-1.sa..., appium:testobject_user_id: oauth-sadginayak.15-1b0c5, appium:uiautomator2ServerInstallTimeout: 60000, appium:usedCachedDevice: false, appium:viewportRect: {height: 2260, left: 0, top: 80, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID, sauce:chromeOptions: {androidDevToolsPort: 22307}, sauce:options: {appiumVersion: stable, build: Monefy-Build-1, name: Android Monefy Test, username: oauth-sadginayak.15-1b0c5}}
+Session ID: 315f726a-1d50-4759-99eb-b27ba1a59b1b" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: AppiumBy.id: com.monefy.app.lite:id/minus_button (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:adbHost: 172.20.0.147, appium:adbPort: 17107, appium:appActivity: com.monefy.activities.main...., appium:appPackage: com.monefy.app.lite, appium:appiumData: {appiumVersion: stable, automationName: UiAutomator2}, appium:automationName: UiAutomator2, appium:chromedriverChromeMappingFile: /root/.testobject_devices/w..., appium:chromedriverExecutableDir: /root/.testobject_devices/w..., appium:chromedriverPorts: [[3250, 3260]], appium:databaseEnabled: false, appium:desired: {adbHost: 172.20.0.147, adbPort: 17107, appActivity: com.monefy.activities.main...., appPackage: com.monefy.app.lite, automationName: UiAutomator2, chromedriverChromeMappingFile: /root/.testobject_devices/w..., chromedriverExecutableDir: /root/.testobject_devices/w..., chromedriverPorts: [[3250, 3260]], deviceName: Samsung_Galaxy_S23_FE_free, flutterSystemPort: 22607, noReset: false, platformName: Android, remoteAdbHost: 172.20.0.147, remoteAppsCacheLimit: 0, sauce:chromeOptions: {androidDevToolsPort: 22307}, sauce:options: {appiumVersion: stable, build: Monefy-Build-1, name: Android Monefy Test, username: oauth-sadginayak.15-1b0c5}, suppressKillServer: true, systemPort: 21107, uiautomator2ServerInstallTimeout: 60000}, appium:deviceApiLevel: 36, appium:deviceContextId: b067e770-cd69-4bf5-a013-791..., appium:deviceManufacturer: samsung, appium:deviceModel: SM-S711B, appium:deviceName: RZCX80A0ELV, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: RZCX80A0ELV, appium:flutterSystemPort: 22607, appium:javascriptEnabled: true, appium:jobUuid: cfe6e91f76b240f38c878196af8..., appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: false, appium:pixelRatio: 2.8125, appium:platformVersion: 16, appium:remoteAdbHost: 172.20.0.147, appium:remoteAppsCacheLimit: 0, appium:statBarHeight: 80, appium:suppressKillServer: true, appium:systemPort: 21107, appium:takesScreenshot: true, appium:testobject_device: Samsung_Galaxy_S23_FE_free, appium:testobject_device_name: Samsung Galaxy S23 FE, appium:testobject_device_session_id: d216723c-ff2f-46e2-b903-f08..., appium:testobject_test_report_api_url: https://api.eu-central-1.sa..., appium:testobject_test_report_url: https://app.eu-central-1.sa..., appium:testobject_user_id: oauth-sadginayak.15-1b0c5, appium:uiautomator2ServerInstallTimeout: 60000, appium:usedCachedDevice: false, appium:viewportRect: {height: 2260, left: 0, top: 80, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID, sauce:chromeOptions: {androidDevToolsPort: 22307}, sauce:options: {appiumVersion: stable, build: Monefy-Build-1, name: Android Monefy Test, username: oauth-sadginayak.15-1b0c5}}
+Session ID: 315f726a-1d50-4759-99eb-b27ba1a59b1b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.monefy.pages.HomePage.clickAddExpense(HomePage.java:25)
+	at com.monefy.tests.ExpenseTest.testAddExpense(ExpenseTest.java:16)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@2096442d
+</system-out>
+    <system-err>SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+</system-err>
+  </testcase>
+</testsuite>

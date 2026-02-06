@@ -1,0 +1,5 @@
+com\monefy\pages\HomePage.class
+com\monefy\driver\DriverFactory.class
+com\monefy\base\BasePage.class
+com\monefy\config\ConfigReader.class
+com\monefy\pages\ExpensePage.class
