@@ -70,6 +70,6 @@ This report documents an exploratory testing session of the **Monefy Lite** Andr
 
 ---
 
-## 5. Automation Strategy (The Three E2E Flows)
+## 5. Automation Strategy
 Based on the risks identified, I have selected the following flows for the E2E automation task:
 1. **Financial Correction Flow:** (Add Deposit -> Add Expense -> Edit Expense via Back button -> Verify Balance).
