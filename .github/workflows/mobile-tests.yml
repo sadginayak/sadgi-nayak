@@ -1,0 +1,36 @@
+name: Mobile Tests
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Execution environment'
+        required: true
+        default: 'browserstack'
+        type: choice
+        options:
+          - browserstack
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: Task2-MonefyAutomation
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Run tests
+        env:
+          BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
+          BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
+        run: mvn -B test
