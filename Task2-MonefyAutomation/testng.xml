@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Monefy Suite">
-    
-    <listeners>
-        <listener class-name="com.monefy.utils.TestListener" />
-    </listeners>
+<suite name="MonefyParallelSuite" parallel="tests" thread-count="2">
 
-    <test name="E2E Tests">
+    <test name="BrowserStack-Samsung-S24">
+        <parameter name="platform" value="android"/>
+        <parameter name="device" value="samsung"/>
+        <parameter name="environment" value="browserstack"/>
+        <parameter name="appPath" value="bs://5feba566cf6de4dc450be6de72735f65ca7134c1"/>
         <classes>
-            <class name="com.monefy.tests.E2EFinancialCorrectionTest" />
+            <class name="com.mobileautomation.monefy.tests.E2EFinancialCorrectionTest"/>
         </classes>
     </test>
 </suite>
