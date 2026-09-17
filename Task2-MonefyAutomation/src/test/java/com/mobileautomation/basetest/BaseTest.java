@@ -47,10 +47,10 @@ public class BaseTest {
                 Platform.valueOf(platformParam.toUpperCase());
 
         String deviceName =
-                ConfigReader.getDeviceName(platformParam, deviceKey);
+                ConfigReader.getDeviceName(environment, platformParam, deviceKey);
 
         String platformVersion =
-                ConfigReader.getDeviceVersion(platformParam, deviceKey);
+                ConfigReader.getDeviceVersion(environment, platformParam, deviceKey);
 
         String endpointUrl =
                 ConfigReader.getEndpointUrl(environment);
@@ -84,7 +84,7 @@ public class BaseTest {
         );
     }
 
-    protected AppiumDriver getDriver() {
+    public  AppiumDriver getDriver() {
         AppiumDriver driver = currentDriver.get();
 
         if (driver == null) {

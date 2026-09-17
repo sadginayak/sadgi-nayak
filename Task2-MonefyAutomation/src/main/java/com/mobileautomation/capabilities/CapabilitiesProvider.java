@@ -23,7 +23,7 @@ public enum CapabilitiesProvider {
             Map<String, Object> sauceOptions = new HashMap<>();
             sauceOptions.put("username", requiredEnv("SAUCE_USERNAME"));
             sauceOptions.put("accessKey", requiredEnv("SAUCE_ACCESS_KEY"));
-            sauceOptions.put("appiumVersion", "stable");
+            sauceOptions.put("appiumVersion", "latest");
 
             Map<String, Object> capabilities = new HashMap<>();
             capabilities.put("sauce:options", sauceOptions);
