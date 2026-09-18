@@ -1,6 +1,9 @@
-   /target/
-   .classpath
-   .project
-   .settings/
-   src/test/resources/apps/
 /target/
+
+.classpath
+.project
+.settings/
+
+src/test/resources/apps/
+
+reports/

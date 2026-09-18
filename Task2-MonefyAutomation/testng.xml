@@ -1,7 +1,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="MonefyParallelSuite" parallel="tests" thread-count="2">
-
-    <test name="BrowserStack-Samsung-S24">
+	   <listeners>
+       		<listener class-name="com.mobileautomation.listeners.TestListener"/>
+       		<listener class-name="com.mobileautomation.listeners.RetryTransformer"/>
+   		</listeners>
+   <!-- <test name="BrowserStack-Samsung-S24">
+    	<parameter name="appName" value="Monefy"/>
         <parameter name="platform" value="android"/>
         <parameter name="device" value="samsung"/>
         <parameter name="environment" value="browserstack"/>
@@ -10,4 +14,15 @@
             <class name="com.mobileautomation.monefy.tests.E2EFinancialCorrectionTest"/>
         </classes>
     </test>
+    -->
+    <test name="SauceLabs-SamsungGalaxyS23FE">
+	    <parameter name="appName" value="Monefy"/>
+	    <parameter name="platform" value="android"/>
+	    <parameter name="device" value="samsung"/>
+	    <parameter name="environment" value="saucelabs"/>
+	    <parameter name="appPath" value="storage:filename=Monefy.apk"/>
+	    <classes>
+	        <class name="com.mobileautomation.monefy.tests.E2EFinancialCorrectionTest"/>
+	    </classes>
+	</test>
 </suite>

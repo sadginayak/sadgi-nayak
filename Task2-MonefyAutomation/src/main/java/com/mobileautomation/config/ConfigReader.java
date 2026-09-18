@@ -52,12 +52,12 @@ public class ConfigReader {
      * @param platform  "android" or "ios"
      * @param deviceKey the key CI/TestNG chose, e.g. "samsung"
      */
-    public static String getDeviceName(String platform, String deviceKey) {
-        return required("devices." + platform.toLowerCase() + "." + deviceKey + ".name");
+    public static String getDeviceName(String environment, String platform, String deviceKey) {
+        return required("devices." + environment.toLowerCase() + "." + platform.toLowerCase() + "." + deviceKey + ".name");
     }
 
-    public static String getDeviceVersion(String platform, String deviceKey) {
-        return required("devices." + platform.toLowerCase() + "." + deviceKey + ".version");
+    public static String getDeviceVersion(String environment, String platform, String deviceKey) {
+        return required("devices." + environment.toLowerCase() + "." + platform.toLowerCase() + "." + deviceKey + ".version");
     }
 
     /**
